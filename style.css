@@ -152,7 +152,7 @@ a:hover {
 .product-list-icon .card {
     /* outline: solid 1px red; */
     width: 100%;
-    padding: 20px;
+    
 }
 
 .product-list-icon .card:hover {
@@ -171,11 +171,12 @@ a:hover {
     font-size: 1rem;
     font-weight: bold;
     color: #000;
+    padding: 20px;
     transition: transform .2s;
 }
 
 .product-list-icon a i:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 /* product-list */
