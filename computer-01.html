@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer-01</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./assets/js/bootstrap.bundle.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="computer-01.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+          <div class="nav-con">
+            <div class="logo">
+              <a href="index.html" style="padding: 0 1 0 0px;">Logotype</a>
+            </div>
+            
+              <ul class="menu">
+                <li><a href="#">CART <i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#">PROFILE <i class="fa-solid fa-user"></i></a></li>
+              </ul>
+          </div>
+
+          <!--Search--> 
+          <div class="nav-search">        
+            <input type="text" name="" id="" placeholder="Enter your product name...">
+            <select class="form-select-sm" name="" id="">
+              <option value="">ALL CATEGORIES</option>
+              <option value="">COMPUTER</option>
+              <option value="">KEYBOARD</option>
+              <option value="">LAPTOP</option>
+              <option value="">MONITOR</option>
+              <option value="">MOUSE</option>
+            </select>
+              <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+          </div>
+        </div>
+        <hr>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="row row-cols-1">
+                <div class="col col-lg-6 col-md-12 col-sm-12">
+                    <div class="card card-product">
+                        <img src="./assets/img/product/computer/com.jpg" class="card-img-top" alt="">
+                    </div>
+
+                    <div class="row row-cols-3 card-img-list">
+                        <div class="col-3">
+                            <div class="card card-product-show">
+                                <img src="./assets/img/product/computer/com.jpg" class="card-img" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-product-show">
+                                <img src="./assets/img/product/computer/com1.jpg" class="card-img" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-product-show">
+                                <img src="./assets/img/product/computer/com2.jpg" class="card-img" alt="">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-product-show">
+                                <img src="./assets/img/product/computer/com3.jpg" class="card-img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-md-12 col-sm-12 card-product-right">
+                    <div class="product-name">
+                        <p class="title">COMPUTER-01</p>
+                    </div>
+                    <div class="warranty">
+                        <div class="bg-warranty">
+                            <div class="text-warranty">
+                                <p>WARRANTY 3 YEARS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="bg-price">
+                            <div class="text-price">
+                                <p>Price:</p> 
+                                <div class="price-left">
+                                    <p> ฿59,900</p>
+                                </div>
+                                <div class="price-right">
+                                    <p>฿69,999</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="color-product">
+                        <p>Colors:</p>
+                        <button class="blue selected"></button>
+                    </div>
+
+                    <div class="qty">
+                        <p>Qty: </p>
+                        <div class="row row-cols-2 qty-btn">
+                            <div id="quantity-container" class="col col-4">
+                                <button id="decrement" class="quantity-btn">-</button>
+                                <input type="text" id="quantity" value="1">
+                                <button id="increment" class="quantity-btn">+</button>
+                            </div> 
+
+                            <div class="col col-8 add">
+                                <a href="#" class="btn">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="buy">
+                        <a href="#" class="btn">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="describe">
+                <a href="#property">Property</a></li>
+                <a href="#product">Product description</a></li>
+            </div>
+            <hr>
+            <div class="row row-cols-1" id="property">
+                <h4>Property</h4>
+                <div class="col col-lg-6 col-sm-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quasi est adipisci asperiores culpa accusantium vitae odio maxime. Quidem vitae qui, amet explicabo laudantium vel tempora cupiditate earum quo officia molestias enim ex assumenda veritatis, ratione quod corporis nostrum deleniti. Neque laborum fuga iure dignissimos maiores vitae consectetur hic quos.
+                </div>
+                <div class="col col-lg-6 col-sm-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit veritatis quasi doloremque unde nesciunt odio cupiditate quia numquam reiciendis?
+                </div>
+                <div class="col col-lg-6 col-sm-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quasi est adipisci asperiores culpa accusantium vitae odio maxime. Quidem vitae qui, amet explicabo laudantium vel tempora cupiditate earum quo officia molestias enim ex assumenda veritatis, ratione quod corporis nostrum deleniti. Neque laborum fuga iure dignissimos maiores vitae consectetur hic quos.
+                </div>
+                <div class="col col-lg-6 col-sm-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit veritatis quasi doloremque unde nesciunt odio cupiditate quia numquam reiciendis?
+                </div>
+            </div>
+            <hr>
+            <div class="row row-cols-1" id="product">
+                <h4>Product description</h4>
+                <div class="col col-lg-6 col-sm-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quasi est adipisci asperiores culpa accusantium vitae odio maxime. Quidem vitae qui, amet explicabo laudantium vel tempora cupiditate earum quo officia molestias enim ex assumenda veritatis, ratione quod corporis nostrum deleniti. Neque laborum fuga iure dignissimos maiores vitae consectetur hic quos.
+                </div>
+                <div class="col col-lg-6 col-sm-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit veritatis quasi doloremque unde nesciunt odio cupiditate quia numquam reiciendis?
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <br>
+          <div class="row row-cols-2">
+            <div class="col col-lg-3 col-md-4 col-sm-6">
+              <h5 class="font-head" style="color: #fff;">POPULAR CAREGORIES</h5>
+              <ul class="con" style="font-size: small;">
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">HeadSet</a></li>
+                <li><a href="#">Keyboard</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Monitor</a></li>
+                <li><a href="#">Mouse</a></li>
+              </ul>
+            </div>
+
+            <div class="col col-lg-3 col-md-4 col-sm-6">
+              <h5 class="font-head" style="color: #fff;">PRODUCT</h5>
+              <ul class="con" style="font-size: small;">
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">HeadSet</a></li>
+                <li><a href="#">Keyboard</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Monitor</a></li>
+                <li><a href="#">Mouse</a></li>
+              </ul>
+            </div>
+
+            <div class="col col-lg-3 col-md-4 col-sm-6">
+              <h5 class="font-head" style="color: #fff;">SERVICES</h5>
+              <ul class="con" style="font-size: small;">
+                <li><a href="#">Prices Drop</a></li>
+                <li><a href="#">New Product</a></li>
+                <li><a href="#">Best Sales</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+
+            <div class="col col-lg-3 col-md-4 col-sm-6">
+              <h5 class="font-head" style="color: #fff;">CONTACT</h5>
+              <div class="con-icon" style="font-size: 30px; color: #fff;">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                <a href="#"><i class="fa-brands fa-line"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          <!-- row -->
+          </div>
+
+          <hr style="color: #fff;">
+          <div class="copyright" style="color: #fff; display: flex; justify-content: center; align-items: center;">
+            Copyright &copy; 2024 All Rights Reserved.
+          </div>
+
+        </div>
+      </footer>
+
+    <!-- Up btn -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const quantityInput = document.getElementById("quantity");
+          const incrementBtn = document.getElementById("increment");
+          const decrementBtn = document.getElementById("decrement");
+    
+          incrementBtn.addEventListener("click", function () {
+            updateQuantity(1);
+          });
+    
+          decrementBtn.addEventListener("click", function () {
+            updateQuantity(-1);
+          });
+    
+          function updateQuantity(change) {
+            let quantityValue = parseInt(quantityInput.value) || 0;
+            quantityValue += change;
+    
+            if (quantityValue < 0) {
+              quantityValue = 0;
+            }
+    
+            quantityInput.value = quantityValue;
+          }
+        });
+      </script>
+    <script src="script.js"></script>
+</body>
+</html>

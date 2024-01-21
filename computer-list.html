@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer-list</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./assets/js/bootstrap.bundle.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="computer-list.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+          <div class="nav-con">
+            <div class="logo">
+              <a href="index.html" style="padding: 0 1 0 0px;">Logotype</a>
+            </div>
+            
+              <ul class="menu">
+                <li><a href="#">CART <i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#">PROFILE <i class="fa-solid fa-user"></i></a></li>
+              </ul>
+          </div>
+
+          <!--Search--> 
+          <div class="nav-search">        
+            <input type="text" name="" id="" placeholder="Enter your product name...">
+            <select class="form-select-sm" name="" id="">
+              <option value="">ALL CATEGORIES</option>
+              <option value="">COMPUTER</option>
+              <option value="">KEYBOARD</option>
+              <option value="">LAPTOP</option>
+              <option value="">MONITOR</option>
+              <option value="">MOUSE</option>
+            </select>
+              <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+          </div>
+        </div>
+        <hr>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="product-list-icon">
+                <div class="row row-cols-3">
+                  <div class="col-sm-2">
+                    <a href="#" class="font-product-list">
+                      <div class="card">
+                        <i class="fa-solid fa-computer"> COMPUTER</i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a href="#" class="font-product-list">
+                      <div class="card">
+                        <i class="fa-solid fa-headset"> HEADSET</i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a href="#" class="font-product-list">
+                      <div class="card">
+                        <i class="fa-regular fa-keyboard"> KEYBOARD</i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a href="#" class="font-product-list">
+                      <div class="card">
+                        <i class="fa-solid fa-laptop"> LAPTOP</i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a href="#" class="font-product-list">
+                      <div class="card">
+                        <i class="fa-solid fa-desktop"> MONITOR</i>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-sm-2">
+                    <a href="#" class="font-product-list">
+                      <div class="card">
+                        <i class="fa-solid fa-computer-mouse"> MOUSE</i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+    
+              <hr>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col col-2">
+                    <label for="" style="font-weight: bold;">COMPUTER</label>
+                        <a class="btn btn-light" data-bs-toggle="collapse" href="#COMPUTER" role="button" aria-expanded="false" aria-controls="COMPUTER" style="width: 100%; text-align: left;">
+                            <i class="fa-solid fa-angle-right"></i> COMPUTER
+                        </a>
+                        
+                        <div class="collapse multi-collapse" id="COMPUTER">
+                            <div class="card card-body" style="border: none;">
+                            <ul class="list-product">
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#HEADSET" aria-expanded="false" aria-controls="HEADSET" style="width: 100%; text-align: left;">
+                            <i class="fa-solid fa-angle-right"></i> HEADSET
+                        </button>
+
+                        <div class="collapse multi-collapse" id="HEADSET">
+                            <div class="card card-body" style="border: none;">
+                            <ul class="list-product">
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#KEYBOARD" aria-expanded="false" aria-controls="KEYBOARD" style="width: 100%; text-align: left;">
+                            <i class="fa-solid fa-angle-right"></i> KEYBOARD
+                        </button>
+
+                        <div class="collapse multi-collapse" id="KEYBOARD">
+                            <div class="card card-body" style="border: none;">
+                            <ul class="list-product">
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#LAPTOP" aria-expanded="false" aria-controls="LAPTOP" style="width: 100%; text-align: left;">
+                            <i class="fa-solid fa-angle-right"></i> LAPTOP
+                        </button>
+
+                        <div class="collapse multi-collapse" id="LAPTOP">
+                            <div class="card card-body" style="border: none;">
+                            <ul class="list-product">
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#MONITOR" aria-expanded="false" aria-controls="MONITOR" style="width: 100%; text-align: left;">
+                            <i class="fa-solid fa-angle-right"></i> MONITOR
+                        </button>
+
+                        <div class="collapse multi-collapse" id="MONITOR">
+                            <div class="card card-body" style="border: none;">
+                            <ul class="list-product">
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#MOUSE" aria-expanded="false" aria-controls="MOUSE" style="width: 100%; text-align: left;">
+                            <i class="fa-solid fa-angle-right"></i> MOUSE
+                        </button>
+
+                        <div class="collapse multi-collapse" id="MOUSE">
+                            <div class="card card-body" style="border: none;">
+                            <ul class="list-product">
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Lorem ipsum</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    <hr>
+
+                    <label for="" style="font-weight: bold;">Price Range</label>
+                    <input type="range" class="form-range" value="100000" min="0" max="100000" step="10000" onchange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" style="width: 100%;">
+                    <div class="Price">
+                        <span id="rangePrice">0</span>
+                        <span id="rangePriceMax">100000</span>
+                    </div>
+
+                    <label for="" style="font-weight: bold; margin-top: 10px;">Brand</label>
+                    <div class="brand">
+                        <input type="checkbox" name="" id=""> INTEL <br>
+                        <input type="checkbox" name="" id=""> AMD
+                    </div>
+                </div>
+
+                <!-- computer-list -->
+                <div class="col col-lg-10">
+                    <div class="row row-cols-2">
+                        <div class="col col-lg-3 col-md-4 col-sm-6 px-0">
+                            <div class="space">
+                                <a href="computer-01.html">
+                                <div class="card list-card">
+                                    <img src="./assets/img/product/computer/com1.jpg" class="card-img-top" alt="" style="height: 160px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="computer-01.html">COMPUTER-01</a>
+                                        </h5>
+                                        <p class="card-text">
+                                            <a href="computer-01.html">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ex!
+                                            </a>
+                                        </p>
+                                        <div class="card-price">
+                                            <div class="card-price-left">
+                                                59,900.00
+                                            </div>
+                                            <div class="card-price-right">
+                                                69,900.00
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-3 col-md-4 col-sm-6 px-0">
+                            <div class="space">
+                                <a href="#">
+                                <div class="card list-card">
+                                    <img src="./assets/img/product/computer/com2.jpg" class="card-img-top" alt="" style="height: 160px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="">COMPUTER-02</a>
+                                        </h5>
+                                        <p class="card-text">
+                                            <a href="#">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ex!
+                                            </a>
+                                        </p>
+                                        <div class="card-price">
+                                            <div class="card-price-left" style="color: #000;">
+                                                59,900.00
+                                            </div>
+                                            <div class="card-price-right">
+                                                
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-3 col-md-4 col-sm-6 px-0">
+                            <div class="space">
+                                <a href="#">
+                                <div class="card list-card">
+                                    <img src="./assets/img/product/computer/com3.jpg" class="card-img-top" alt="" style="height: 160px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="">COMPUTER-03</a>
+                                        </h5>
+                                        <p class="card-text">
+                                            <a href="#">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ex!
+                                            </a>
+                                        </p>
+                                        <div class="card-price">
+                                            <div class="card-price-left">
+                                                59,900.00
+                                            </div>
+                                            <div class="card-price-right">
+                                                69,900.00
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col col-lg-3 col-md-4 col-sm-6 px-0">
+                            <div class="space">
+                                <a href="#">
+                                <div class="card list-card">
+                                    <img src="./assets/img/product/computer/com1.jpg" class="card-img-top" alt="" style="height: 160px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="">COMPUTER-04</a>
+                                        </h5>
+                                        <p class="card-text">
+                                            <a href="#">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ex!
+                                            </a>
+                                        </p>
+                                        <div class="card-price">
+                                            <div class="card-price-left">
+                                                59,900.00
+                                            </div>
+                                            <div class="card-price-right">
+                                                69,900.00
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col col-lg-3 col-md-4 col-sm-6 px-0">
+                            <div class="space">
+                                <a href="#">
+                                <div class="card list-card">
+                                    <img src="./assets/img/product/computer/com1.jpg" class="card-img-top" alt="" style="height: 160px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="">COMPUTER-05</a>
+                                        </h5>
+                                        <p class="card-text">
+                                            <a href="#">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ex!
+                                            </a>
+                                        </p>
+                                        <div class="card-price">
+                                            <div class="card-price-left">
+                                                59,900.00
+                                            </div>
+                                            <div class="card-price-right">
+                                                69,900.00
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col col-lg-3 col-md-4 col-sm-6 px-0">
+                            <div class="space">
+                                <a href="#">
+                                <div class="card list-card">
+                                    <img src="./assets/img/product/computer/com1.jpg" class="card-img-top" alt="" style="height: 160px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="">COMPUTER-06</a>
+                                        </h5>
+                                        <p class="card-text">
+                                            <a href="#">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ex!
+                                            </a>
+                                        </p>
+                                        <div class="card-price">
+                                            <div class="card-price-left">
+                                                59,900.00
+                                            </div>
+                                            <div class="card-price-right">
+                                                69,900.00
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col col-lg-3 col-md-4 col-sm-6 px-0">
+                            <div class="space">
+                                <a href="#">
+                                <div class="card list-card">
+                                    <img src="./assets/img/product/computer/com1.jpg" class="card-img-top" alt="" style="height: 160px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="">COMPUTER-07</a>
+                                        </h5>
+                                        <p class="card-text">
+                                            <a href="#">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ex!
+                                            </a>
+                                        </p>
+                                        <div class="card-price">
+                                            <div class="card-price-left">
+                                                59,900.00
+                                            </div>
+                                            <div class="card-price-right">
+                                                69,900.00
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col col-lg-3 col-md-4 col-sm-6 px-0">
+                            <div class="space">
+                                <a href="#">
+                                <div class="card list-card">
+                                    <img src="./assets/img/product/computer/com1.jpg" class="card-img-top" alt="" style="height: 160px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="">COMPUTER-08</a>
+                                        </h5>
+                                        <p class="card-text">
+                                            <a href="#">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ex!
+                                            </a>
+                                        </p>
+                                        <div class="card-price">
+                                            <div class="card-price-left">
+                                                59,900.00
+                                            </div>
+                                            <div class="card-price-right">
+                                                69,900.00
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn">ADD TO CART</a>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <br>
+          <div class="row row-cols-2">
+            <div class="col col-lg-3 col-md-4 col-sm-6">
+              <h5 class="font-head" style="color: #fff;">POPULAR CAREGORIES</h5>
+              <ul class="con" style="font-size: small;">
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">HeadSet</a></li>
+                <li><a href="#">Keyboard</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Monitor</a></li>
+                <li><a href="#">Mouse</a></li>
+              </ul>
+            </div>
+
+            <div class="col col-lg-3 col-md-4 col-sm-6">
+              <h5 class="font-head" style="color: #fff;">PRODUCT</h5>
+              <ul class="con" style="font-size: small;">
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">HeadSet</a></li>
+                <li><a href="#">Keyboard</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Monitor</a></li>
+                <li><a href="#">Mouse</a></li>
+              </ul>
+            </div>
+
+            <div class="col col-lg-3 col-md-4 col-sm-6">
+              <h5 class="font-head" style="color: #fff;">SERVICES</h5>
+              <ul class="con" style="font-size: small;">
+                <li><a href="#">Prices Drop</a></li>
+                <li><a href="#">New Product</a></li>
+                <li><a href="#">Best Sales</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+
+            <div class="col col-lg-3 col-md-4 col-sm-6">
+              <h5 class="font-head" style="color: #fff;">CONTACT</h5>
+              <div class="con-icon" style="font-size: 30px; color: #fff;">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                <a href="#"><i class="fa-brands fa-line"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          <!-- row -->
+          </div>
+
+          <hr style="color: #fff;">
+          <div class="copyright" style="color: #fff; display: flex; justify-content: center; align-items: center;">
+            Copyright &copy; 2024 All Rights Reserved.
+          </div>
+
+        </div>
+      </footer>
+
+    <!-- JS range price -->
+    <script>
+        function rangeSlide(value) {
+            document.getElementById("rangePriceMax").innerHTML = value;
+        }
+    </script>
+
+    <!-- Up btn -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>

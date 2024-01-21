@@ -103,67 +103,10 @@ a:hover {
     width: auto;
 }
 
-/*aside*/
-.col-lg-2 {
-    z-index: 99;
-}
-
-.col-lg-2 .btn {
-    font-size: 14px;
-}
-
-.list-product a {
-    text-decoration: none;
-    color: var(--grey);
-}
-
-.list-product a:hover {
-    color: var(--orage);
-}
-
-/* carousel */
-.c-item-left {
-    height: 350px;
-}
-
-.c-img-left {
-    height: 100%;
-    object-fit: cover;
-}
-
-.c-item-middle {
-    height: 350px;
-}
-
-.c-img-middle {
-    height: 100%;
-    object-fit: cover;
-}
-
-.c-item-right {
-    height: 172px;
-}
-
-.c-img-right {
-    height: 100%;
-    object-fit: cover;
-}
-
-.c-item-right-2 {
-    height: 172px;
-    margin-top: 6px;
-}
-
-.c-img-right-2 {
-    height: 100%;
-    object-fit: cover;
-}
-
 /* product list icon */
 .product-list-icon .card {
     /* outline: solid 1px red; */
     width: 100%;
-    
 }
 
 .product-list-icon .card:hover {
@@ -190,61 +133,58 @@ a:hover {
     transform: scale(1.15);
 }
 
-/* product-list */
-.name-product {
+/* left-side-bar */
+
+/* Range Price */
+.Price {
     display: flex;
     justify-content: space-between;
-    align-items: end;
 }
 
-.name-product a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
+/* Brand */
+.brand input {
+    margin-top: 1rem;
 }
 
-.name-product .product-rec {
-    font-size: 26px;
+/* list-card */
+.space {
+    margin: 0 5px 5px 0;
 }
 
-.name-product .see-more a:hover {
-    color: var(--orage);
-    transition: 200ms;
-}
-
-.card-photo {
+.list-card {
+    cursor: pointer;
     height: 380px;
-    margin-top: 10px;
-}
-
-.card-info {
-    height: 380px;
-    margin-top: 10px;
     transition: transform .2s;
 }
 
-.card-info:hover {
+.list-card:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: scale(1.01);
 }
 
-.card-img-top {
-    height: 100%;
+.list-card .card-img-top {
     object-fit: cover;
+    height: 100%;
 }
 
 .card-body {
     padding: 15px;
 }
 
-.card-body .card-title a {
+.card .card-title a {
     color: #000;
     font-weight: bold;
     text-decoration: none;
 }
 
-.card-body .card-title a:hover {
+.card .card-title a:hover {
     color: var(--orage);
+    transition: 200ms;
+}
+
+.card .card-text a {
+    color: #000;
+    text-decoration: none;
 }
 
 .card-body .card-price {
@@ -324,16 +264,21 @@ footer .con-icon a:hover {
     background-color: #555;
   }
 
+/* Ipad */
 @media screen and (max-width: 1181px) {
-    .name-product .product-rec a {
-        font-size: 20px;
+    /* product-list-icon */
+    .product-list-icon a i {
+        font-size: 12px;
     }
-
-    .card-info .card-title a {
+    .list-card .card-title a {
         font-size: 16px;
     }
 
-    .card-info .card-text {
+    .list-card .card-text a {
+        font-size: 14px;
+    }
+
+    .list-card .btn {
         font-size: 14px;
     }
     /* footer */
@@ -348,22 +293,12 @@ footer .con-icon a:hover {
     .con-icon a {
         font-size: 26px;
     }
-    
 }
 
-@media screen and (max-width: 990px) { 
-    aside .row .col-lg-2 label {
+@media screen and (max-width: 990px) {
+    section .row .col-2 {
         display: none;
     }
-
-    aside .row .col-lg-2 .btn {
-        display: none;
-    }
-
-    .c-item-right-2 {
-        margin-top: 0px;
-    }
-    
 }
 
 /* Mobile */
@@ -389,61 +324,24 @@ footer .con-icon a:hover {
     .nav-search button i {
         font-size: 18px;
     }
-
     /* product-list-icon */
     .product-list-icon a i {
         font-size: 12px;
     }
 
     /* card */
-    .name-product .product-rec {
-        font-size: 20px;
-    }
-    
-    .name-product .see-more a:hover {
-        color: var(--orage);
-        transition: 200ms;
+    .list-card .card-title a {
+        font-size: 14px;
     }
 
-    .card-photo {
-        height: 280px;
-    }
-
-    .card-info {
-        height: 280px;
-    }
-
-    .card-body {
-        padding: 10px;
-    }
-    
-    .card-body .card-title a {
-        font-size: small;
-    }
-    
-    .card-body .card-text {
-        display: none;
-    }
-
-    .card-body .card-price {
+    .list-card .card-text a {
         font-size: 12px;
     }
-    
-    .card-body .card-price-left {
-        font-weight: bold;
-        color: red;
-    } 
-    
-    .card-body .card-price-right {
-        font-size: smaller;
-        color: var(--grey);
-        text-decoration: line-through;
-    } 
 
-    .card-body .btn {
+    .list-card .btn {
         font-size: 12px;
-        margin-top: 5px;
     }
+
     /* footer */
     .font-head {
         font-size: 14px;
