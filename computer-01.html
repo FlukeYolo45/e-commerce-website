@@ -49,28 +49,28 @@
             <div class="row row-cols-1">
                 <div class="col col-lg-6 col-md-12 col-sm-12">
                     <div class="card card-product">
-                        <img src="./assets/img/product/computer/com.jpg" class="card-img-top" alt="">
+                        <img src="./assets/img/product/computer/com.jpg" class="card-img-top" alt="" id="imgMain">
                     </div>
 
                     <div class="row row-cols-3 card-img-list">
                         <div class="col-3">
                             <div class="card card-product-show">
-                                <img src="./assets/img/product/computer/com.jpg" class="card-img" alt="">
+                                <img src="./assets/img/product/computer/com.jpg" class="card-img" alt="" id="imgFirst" onclick="ImgFirst()">
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="card card-product-show">
-                                <img src="./assets/img/product/computer/com1.jpg" class="card-img" alt="">
+                                <img src="./assets/img/product/computer/com1.jpg" class="card-img" alt="" id="imgSecond" onclick="ImgSecond()">
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="card card-product-show">
-                                <img src="./assets/img/product/computer/com2.jpg" class="card-img" alt="">
+                                <img src="./assets/img/product/computer/com2.jpg" class="card-img" alt="" id="imgThird" onclick="ImgThird()">
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="card card-product-show">
-                                <img src="./assets/img/product/computer/com3.jpg" class="card-img" alt="">
+                                <img src="./assets/img/product/computer/com3.jpg" class="card-img" alt="" id="imgFourth" onclick="ImgFourth()">
                             </div>
                         </div>
                     </div>
@@ -108,9 +108,9 @@
                         <p>Qty: </p>
                         <div class="row row-cols-2 qty-btn">
                             <div id="quantity-container" class="col col-4">
-                                <button id="decrement" class="quantity-btn">-</button>
+                                <button id="decrement" class="quantity-btn" onclick="decrease()">-</button>
                                 <input type="text" id="quantity" value="1">
-                                <button id="increment" class="quantity-btn">+</button>
+                                <button id="increment" class="quantity-btn" onclick="increase()">+</button>
                             </div> 
 
                             <div class="col col-8 add">
@@ -222,33 +222,8 @@
 
     <!-- Up btn -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
-    <script src="script.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const quantityInput = document.getElementById("quantity");
-          const incrementBtn = document.getElementById("increment");
-          const decrementBtn = document.getElementById("decrement");
-    
-          incrementBtn.addEventListener("click", function () {
-            updateQuantity(1);
-          });
-    
-          decrementBtn.addEventListener("click", function () {
-            updateQuantity(-1);
-          });
-    
-          function updateQuantity(change) {
-            let quantityValue = parseInt(quantityInput.value) || 0;
-            quantityValue += change;
-    
-            if (quantityValue < 0) {
-              quantityValue = 0;
-            }
-    
-            quantityInput.value = quantityValue;
-          }
-        });
-      </script>
-    <script src="script.js"></script>
+    <script src="./component/script.js"></script>
+    <script src="./component/img.js"></script>
+    <script src="./component/qty.js"></script>
 </body>
 </html>
